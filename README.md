@@ -11,7 +11,7 @@ If you use these data, please cite our paper (https://papers.ssrn.com/sol3/paper
 | acquirer    | Indicator that the patent is owned by the acquirer |
 | target      | Indicator that the patent is owned by the target   |
 
-The dataset includes all active patents that matched to companies in SDC M&A deals. Patents are assigned to firms based on ownership at the end of the year prior to the deal. Ownership changes (e.g., purchases, sales, M&A, etc.) are accounted for in these files.
+The dataset includes all active patents we matched to companies in SDC M&A deals. Patents are assigned to firms based on ownership at the end of the year prior to the deal after accounting for all prior ownership changes.
 
 The deal sample is restricted as follows:
 - Deals must have valid effective or withdrawal dates and non-missing percent sought
